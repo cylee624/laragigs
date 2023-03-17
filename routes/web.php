@@ -28,6 +28,8 @@ Route::get('/', function () {
    
 });
 */
+//Route::
+
 Route::get('/',[ListingController::class, 'index']);
 
 // show create form
